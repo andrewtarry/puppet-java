@@ -15,7 +15,7 @@
 class java::params {
 
   $jdk = false
-  $version = '6'
+  $version = '7'
   $headless = true
   $java_home_base = $::operatingsystem ? {
     /(?i:SLES|OpenSuSE)/      => '/usr/lib/java',
